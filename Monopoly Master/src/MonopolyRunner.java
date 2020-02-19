@@ -9,7 +9,7 @@ public class MonopolyRunner
 		static ArrayList<Player> players = new ArrayList<Player>();
 		
 		//Main Change Themes VVVVVVVVVVV
-		static int changeThemes = 1;
+		static int changeThemes = 0;
 		
 		public static void main(String[] args) throws FileNotFoundException
 			{
@@ -25,7 +25,7 @@ public class MonopolyRunner
 				int counter = 1;
 				for(Board b: board)
 					{
-						System.out.println(counter + ": " +  b.getName());
+						System.out.println(counter + ": " +  b.getName() + " " + b.getType() + " ---> " + b.getPlaceOnBoard());
 						counter ++;
 					}
 
