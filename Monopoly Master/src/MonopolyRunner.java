@@ -24,9 +24,9 @@ public class MonopolyRunner
 				MakeOtherPieces.makeRailroads();
 				MakeOtherPieces.makeUtilities();
 				MakeOtherPieces.makeAllOthers();
-				Collections.sort(board, new BoardSorter());
-				
-				//Playing.play();
+
+				Collections.sort(board, new BoardSorter()); 
+				Playing.play();
 				
 				//CommunityChestReader.readCommunityChest();
 				
