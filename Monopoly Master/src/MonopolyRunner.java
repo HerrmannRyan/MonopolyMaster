@@ -25,6 +25,7 @@ public class MonopolyRunner
 				MakeOtherPieces.makeUtilities();
 				MakeOtherPieces.makeAllOthers();
 				Collections.sort(board, new BoardSorter());
+				//test
 				
 				Playing.play();
 				
