@@ -1,5 +1,4 @@
- 
-public abstract class Board
+ public abstract class Board
 	{
 		protected String name;
 		protected String type; 
