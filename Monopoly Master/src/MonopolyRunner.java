@@ -32,7 +32,7 @@ public class MonopolyRunner
 				Collections.sort(board, new BoardSorter()); 
 				//board is made 
 
-				
+				//test
 				//playing 
 				Playing.play();
 				
