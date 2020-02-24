@@ -20,30 +20,31 @@ public class MakeOtherPieces
 				if (MonopolyRunner.changeThemes == 1)
 					{
 						MonopolyRunner.board
-								.add(new Railroads("Narrow Gauge Railroad", "Railroad", 5, 200, false, 0, 0));
+								.add(new Railroads("Narrow Gauge Railroad", "Railroad", 5, 200, false, 25, 0));
 						MonopolyRunner.board.add(
-								new Railroads("The Chesapeake and Ohio Railroad", "Railroad", 15, 200, false, 0, 0));
+								new Railroads("The Chesapeake and Ohio Railroad", "Railroad", 15, 200, false, 25, 0));
 						MonopolyRunner.board.add(new Railroads("The Nashville and Chattanooga Railroad", "Railroad", 25,
-								200, false, 0, 0));
+								200, false, 25, 0));
 						MonopolyRunner.board
-								.add(new Railroads("The Scenic Railroad", "Railroad", 35, 200, false, 0, 0));
-					} else if (MonopolyRunner.changeThemes == 0)
+								.add(new Railroads("The Scenic Railroad", "Railroad", 35, 200, false, 25, 0));
+					} 
+				else if (MonopolyRunner.changeThemes == 0)
 					{
 						MonopolyRunner.board
-								.add(new Railroads("Reading Railroad", "Railroad", 5, 200, false, 0, 0));
+								.add(new Railroads("Reading Railroad", "Railroad", 5, 200, false, 25, 0));
 						MonopolyRunner.board.add(
-								new Railroads("Pennsylvania Railroad", "Railroad", 15, 200, false, 0, 0));
+								new Railroads("Pennsylvania Railroad", "Railroad", 15, 200, false, 25, 0));
 						MonopolyRunner.board.add(new Railroads("B & O Railroad", "Railroad", 25,
-								200, false, 0, 0));
+								200, false, 25, 0));
 						MonopolyRunner.board
-								.add(new Railroads("Short Line Railroad", "Railroad", 35, 200, false, 0, 0));
+								.add(new Railroads("Short Line Railroad", "Railroad", 35, 200, false, 25, 0));
 					}
 			}
 		public static void makeUtilities()
 		{
 			// name, type, place on board, price, is bought, cost when landed on, both
-			MonopolyRunner.board.add(new Utilities("Electric Company", "Utility", 12, 150, false, 0 , false));
-			MonopolyRunner.board.add(new Utilities("Water Works", "Utility", 28, 150, false, 0, false));
+			MonopolyRunner.board.add(new Utilities("Electric Company", "Utility", 12, 150, false, 1, false));
+			MonopolyRunner.board.add(new Utilities("Water Works", "Utility", 28, 150, false, 1, false));
 		}
 		public static void makeAllOthers()
 		{

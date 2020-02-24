@@ -16,7 +16,7 @@ public class ReadAndPlaceProperties
 			else if (MonopolyRunner.changeThemes == 1)
 				file = new Scanner(new File ("listOfPropertiesNationalParks.txt"));
 			
-			// <name>, <place on board>, <price>, bought, <costWhenLandedOn>, housesBought, isHotel, <Color>, CanPlaceHouses, <houseCost> <Houses and Hotels>
+			// <name>, <type of space>, <place on board>, <price>, bought, <costWhenLandedOn>, housesBought, isHotel, <Color>, CanPlaceHouses, <houseCost> <Houses and Hotels>
 			
 			while (file.hasNext())
 			{
@@ -24,6 +24,7 @@ public class ReadAndPlaceProperties
 				String houseForProperty = file.nextLine();
 				
 				String[] information = propertyAbout.split("[+]");
+				
 				
 				String name = information[0];
 				int price = Integer.parseInt(information[1]);
