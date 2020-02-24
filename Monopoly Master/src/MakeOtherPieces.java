@@ -43,8 +43,8 @@ public class MakeOtherPieces
 		public static void makeUtilities()
 		{
 			// name, type, place on board, price, is bought, cost when landed on, both
-			MonopolyRunner.board.add(new Utilities("Electric Company", "Utility", 12, 150, false, 0 , false));
-			MonopolyRunner.board.add(new Utilities("Water Works", "Utility", 28, 150, false, 0, false));
+			MonopolyRunner.board.add(new Utilities("Electric Company", "Utility", 12, 150, false, 1, false));
+			MonopolyRunner.board.add(new Utilities("Water Works", "Utility", 28, 150, false, 1, false));
 		}
 		public static void makeAllOthers()
 		{

@@ -275,13 +275,13 @@ public class OptionsWhenYouLand
 						
 						int totalMultiplier = multiplier*diceRoll; 
 						
-						int amountToPay = (((Railroads) MonopolyRunner.board.get(place)).getCostWhenLandedOn())*totalMultiplier; 
+						int amountToPay = (((Utilities) MonopolyRunner.board.get(place)).getCostWhenLandedOn())*totalMultiplier; 
 						
 						String playerOneName = MonopolyRunner.players.get(Playing.currentPlayer).getName(); 
 						
 						String playerTwoName = MonopolyRunner.players.get(Playing.notCurrentPlayer).getName(); 
 						
-						System.out.println(playerTwoName + ", owns this U");
+						System.out.println(playerTwoName + ", owns this Utility");
 						
 						System.out.println(playerOneName + ", you owe " + playerTwoName + " $" + amountToPay + ".");
 						
